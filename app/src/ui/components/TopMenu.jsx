@@ -1,6 +1,8 @@
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import { Container, Menu, Segment, Icon, Image } from 'semantic-ui-react';
+import About from '../pages/About';
+import { Link, withRouter } from 'react-router-dom';
 
 class TopMenu extends React.Component {
   state = { activeItem: 'home' };
@@ -12,31 +14,56 @@ class TopMenu extends React.Component {
 
     return (
         <Menu inverted stackable pointing secondary fixed={'top'}
-              style={{backgroundColor: 'none',
+              style={{
+                backgroundColor: 'none',
                 padding: '0.5rem 0.5rem',
-                borderColor: 'transparent'}}>
+                borderColor: 'transparent'
+              }}>
           <Menu.Item
-              style={{marginLeft: 'calc(40%)'}}
+              style={{ marginLeft: 'calc(30%)' }}
+              name='home'
+              active={activeItem === 'home'}
+              onClick={this.handleItemClick}
+              icon={"user"}
+              as={ Link }
+              exact to='/'
+          />
+          <Menu.Item
               name='about'
               active={activeItem === 'about'}
               onClick={this.handleItemClick}
               icon={"user"}
+              as={ Link }
+              exact to='/about'
           />
           <Menu.Item
               name='projects'
               active={activeItem === 'projects'}
               onClick={this.handleItemClick}
-              icon={"folder open"}
+              icon={"code"}
+              as={ Link }
+              exact to='/projects'
           />
           <Menu.Item
-              name='contact'
-              active={activeItem === 'contact'}
+              name='essays'
+              active={activeItem === 'essays'}
               onClick={this.handleItemClick}
-              icon="address card outline"
+              icon="book"
+              as={ Link }
+              exact to='/essays'
+          />
+          <Menu.Item
+              name='resume'
+              active={activeItem === 'resume'}
+              onClick={this.handleItemClick}
+              icon="file code"
+              as={ Link }
+              exact to='/resume'
           />
         </Menu>
+
     )
   }
 }
 
-export default TopMenu;
+export default withRouter(TopMenu);

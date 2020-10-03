@@ -2,6 +2,7 @@ import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import { Container, Menu, Segment, Icon, Image } from 'semantic-ui-react';
 import profileImg from '../../images/github.jpg';
+
 class Middle extends React.Component{
   render() {
 
@@ -13,11 +14,11 @@ class Middle extends React.Component{
         <div id="menuBG">
           <Container>
             <div className={"bg-text"}>
-              <h1 className={'bg-h1'}>MOCHA.PNG</h1>
+              <h1 className={'bg-h1'}>JENNIFER HSU</h1>
               <div>
                 <Image centered style={imgSize} circular src={profileImg}/>
-                <a href={"https://www.youtube.com/"}>
-                  <Icon style={space} name={"youtube"} size='big'/>
+                <a href={"mailto: jhsu2@hawaii.edu"}>
+                  <Icon style={space} name={"mail"} size='big'/>
                 </a>
                 <a href={"https://www.linkedin.com/in/jennifer-hsu-6788b9153/"}>
                   <Icon style={space} name={"linkedin"} size='big'/>
