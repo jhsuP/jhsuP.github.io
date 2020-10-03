@@ -1,0 +1,25 @@
+[
+  {
+    "name": "InternBit",
+    "date": "2020-07-28",
+    "shortDesp": "InternBit is a web application that seeks to make internship searching easier.",
+    "tools": [
+      "React",
+      "Web Scraping",
+      "Summer Research Project",
+      "Puppeteer"
+    ],
+    "image": "https://jhsup.github.io/images/internbit-logo.png"
+  },
+  {
+    "name": "Ono On The Way",
+    "date": "2020-05-15",
+    "shortDesp": "Ono On-The-Way is a web application that UH Manoa students can use when they do not want interrupt their work to go out for on-campus food.",
+    "tools": [
+      "React",
+      "MongoDB",
+      "Semantic UI"
+    ],
+    "image": "https://jhsup.github.io/images/Logo-Transparent-lback.png"
+  }
+]
