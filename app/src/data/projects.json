@@ -21,5 +21,25 @@
       "Semantic UI"
     ],
     "image": "https://jhsup.github.io/images/Logo-Transparent-lback.png"
+  },
+  {
+    "name": "Discord To-Do Bot",
+    "date": "2020-01-05",
+    "shortDesp": "A Discord \"Todo\" bot I developed used by Moderators of a Discord server with 700+ members.",
+    "tools": [
+      "Discord.py",
+      "Discord"
+    ],
+    "image": "https://jhsup.github.io/images/Logo.png"
+  },
+  {
+    "name": "Surf's Up - Dog Edition",
+    "date": "2018-11-10",
+    "shortDesp": "Developed a game where the objective was to survive as long as possible.",
+    "tools": [
+      "Java",
+      "EZGraphics"
+    ],
+    "image": "https://jhsup.github.io/images/Game_Start.png"
   }
 ]
