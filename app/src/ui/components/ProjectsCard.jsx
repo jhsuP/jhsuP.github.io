@@ -8,6 +8,17 @@ class ProjectsCard extends React.Component {
 
   render() {
 
+    function description(description) {
+      try {
+        return (
+            <span dangerouslySetInnerHTML={{ __html: description }}/>
+        );
+      } catch (e) {
+        console.log('No description field.');
+        return '';
+      }
+    }
+
     const renderLabels = (tool) => {
       return (
           <Label style={{ backgroundColor: '#00000059', color: 'white' }}>
@@ -37,12 +48,10 @@ class ProjectsCard extends React.Component {
               </Item.Meta>
               <Item.Description style={{ color: 'white' }}>
                 {this.props.project.shortDesp}
+                {/*{description(this.props.project.description)}*/}
               </Item.Description>
               <Item.Extra>
                 {this.props.project.tools.map((skill) => (
-                    // <Label circular key={skill} style={skillsStyle}>
-                    //   {skill}
-                    // </Label>
                     renderLabels(skill)
                 ))}
                 <Button floated='right' style={{ backgroundColor: '#3c4044', color: 'white' }}>

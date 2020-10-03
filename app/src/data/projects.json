@@ -9,7 +9,9 @@
       "Summer Research Project",
       "Puppeteer"
     ],
-    "image": "https://jhsup.github.io/images/internbit-logo.png"
+    "image": "https://jhsup.github.io/images/internbit-logo.png",
+    "slug": "internbit",
+    "description": "\n\nMassa sed elementum tempus egestas sed sed risus pretium. Nunc lobortis mattis aliquam faucibus purus. Turpis cursus in hac habitasse platea dictumst quisque sagittis. Vel quam elementum pulvinar etiam non. Nulla aliquet enim tortor at. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Massa tincidunt dui ut ornare lectus. Pharetra convallis posuere morbi leo urna molestie at elementum. Enim diam vulputate ut pharetra sit amet aliquam id. In eu mi bibendum neque egestas congue quisque egestas. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan.\n\nNibh nisl condimentum id venenatis a condimentum vitae. Elit eget gravida cum sociis natoque penatibus et magnis. Quam nulla porttitor massa id. Vitae auctor eu augue ut lectus arcu. Enim praesent elementum facilisis leo vel fringilla. Consectetur a erat nam at. <h1>GOD DAMN IT</h1>Imperdiet massa tincidunt nunc pulvinar. Nulla malesuada pellentesque elit eget gravida cum sociis natoque. Est placerat in egestas erat imperdiet sed euismod. Posuere ac ut consequat semper viverra nam libero justo. Nibh mauris cursus mattis molestie a iaculis at. Ultricies lacus sed turpis tincidunt. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sagittis aliquam malesuada bibendum arcu.\n\nVelit egestas dui id ornare. Quis commodo odio aenean sed. Urna cursus eget nunc scelerisque viverra mauris in aliquam sem. Neque sodales ut etiam sit. Lectus proin nibh nisl condimentum id venenatis. Elit sed vulputate mi sit. Commodo quis imperdiet massa tincidunt."
   },
   {
     "name": "Ono On The Way",
@@ -20,7 +22,9 @@
       "MongoDB",
       "Semantic UI"
     ],
-    "image": "https://jhsup.github.io/images/Logo-Transparent-lback.png"
+    "image": "https://jhsup.github.io/images/Logo-Transparent-lback.png",
+    "slug": "ono-otw",
+    "description": ""
   },
   {
     "name": "Discord To-Do Bot",
@@ -30,7 +34,9 @@
       "Discord.py",
       "Discord"
     ],
-    "image": "https://jhsup.github.io/images/Logo.png"
+    "image": "https://jhsup.github.io/images/Logo.png",
+    "slug": "discord-todo",
+    "description": ""
   },
   {
     "name": "Surf's Up - Dog Edition",
@@ -40,6 +46,8 @@
       "Java",
       "EZGraphics"
     ],
-    "image": "https://jhsup.github.io/images/Game_Start.png"
+    "image": "https://jhsup.github.io/images/Game_Start.png",
+    "slug": "surfs-up",
+    "description": ""
   }
 ]
