@@ -1,7 +1,7 @@
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import { Container, Menu, Segment, Icon, Image } from 'semantic-ui-react';
-import About from '../pages/About';
+import Projects from '../pages/Projects';
 import { Link, withRouter } from 'react-router-dom';
 
 class TopMenu extends React.Component {
@@ -17,10 +17,11 @@ class TopMenu extends React.Component {
               style={{
                 backgroundColor: 'none',
                 padding: '0.5rem 0.5rem',
-                borderColor: 'transparent'
+                borderColor: 'transparent',
+                marginBottom: '5rem'
               }}>
           <Menu.Item
-              style={{ marginLeft: 'calc(30%)' }}
+              style={{ marginLeft: 'calc(34%)' }}
               name='home'
               active={activeItem === 'home'}
               onClick={this.handleItemClick}
