@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import internbit from '../../data/projects/internbit.md';
 import htmlParser from 'react-markdown/plugins/html-parser';
 
+
 class ProjectsCard extends React.Component {
   constructor(props) {
     super(props);
@@ -20,8 +21,8 @@ class ProjectsCard extends React.Component {
   }
 
   componentDidMount() {
-    // Get the contents from the Markdown file and put them in the React state, so we can reference it in render() below.
-    fetch(internbit).then(res => res.text()).then(
+
+    fetch(this.props.project).then(res => res.text()).then(
         text =>
             this.setState({
               markdown: text
@@ -44,13 +45,9 @@ class ProjectsCard extends React.Component {
     );
   }
 
-  splitText() {
-    // const split = this.state.markdown.split("@@@");
-    // console.log(split[1]);
-  }
-
   render() {
 
+    console.log(this.state.markdown)
     function description(description) {
       try {
         return (
