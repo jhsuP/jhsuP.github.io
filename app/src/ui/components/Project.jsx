@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, Button } from 'semantic-ui-react';
+import { Container, Header } from 'semantic-ui-react';
 import ReactMarkdown from 'react-markdown';
 import { withRouter } from "react-router-dom";
 import SimpleStorage  from "react-simple-storage";
@@ -12,7 +12,6 @@ class Project extends React.Component {
     let url = window.location.href;
     url = url.split('/');
     url = url[url.length-1];
-    console.log(url)
 
     if (localStorage.getItem(url + '_description')) {
       const description = localStorage.getItem(url + '_description');
@@ -32,13 +31,6 @@ class Project extends React.Component {
 
   }
 
-  componentDidMount() {
-    if (localStorage.getItem(this.props.location.title + '_description')) {
-      const description = localStorage.getItem(this.props.location.title + '_description');
-      const title = localStorage.getItem(this.props.location.title + '_title');
-    }
-  }
-
   render() {
     let url = window.location.href;
     url = url.split('/');
@@ -55,9 +47,6 @@ class Project extends React.Component {
               <ReactMarkdown escapeHtml={false}
                              source={this.state.description}
               />
-              <Button>
-                Go back
-              </Button>
             </div>
           </Container>
         </div>
