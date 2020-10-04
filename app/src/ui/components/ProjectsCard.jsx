@@ -1,9 +1,7 @@
 import React from 'react';
 import { Item, Image, Label, Button, Icon } from 'semantic-ui-react';
 import ReactMarkdown from 'react-markdown';
-import internbit from '../../data/projects/2020-07-28 internbit.md';
 import htmlParser from 'react-markdown/plugins/html-parser';
-
 
 class ProjectsCard extends React.Component {
   constructor(props) {
@@ -38,7 +36,7 @@ class ProjectsCard extends React.Component {
               this.setState({date: date});
               this.setState({slug: slug});
               this.setState({title: title});
-              this.setState({img: img});
+              this.setState({img: img.trim()});
               this.setState({labels: labels});
               this.setState({ description: split[2] });
             })
@@ -65,9 +63,8 @@ class ProjectsCard extends React.Component {
                     className={'project'}>
           <Item>
             <Item.Image
-                src={this.props.project.image}/>
+                src={this.state.img}/>
             <Item.Content>
-              {/*<Item.Header as='a'>{this.props.project.name}</Item.Header>*/}
               <Item.Header as='a'>{this.state.title}</Item.Header>
               <Item.Meta>
                     <span style={{ color: 'white' }}>
@@ -76,16 +73,12 @@ class ProjectsCard extends React.Component {
                     </span>
               </Item.Meta>
               <Item.Description style={{ color: 'white' }}>
-                {/*{this.props.project.shortDesp}*/}
                 {this.state.summary}
                 {/*<ReactMarkdown escapeHtml={false}*/}
                 {/*               source={this.state.description}/>*/}
                 {/*{description(this.props.project.description)}*/}
               </Item.Description>
               <Item.Extra>
-                {/*{this.props.project.tools.map((skill) => (*/}
-                {/*    renderLabels(skill)*/}
-                {/*))}*/}
                 {this.state.labels.map((skill) => (
                     renderLabels(skill)
                 ))}
