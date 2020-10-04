@@ -1,6 +1,6 @@
 import React from 'react';
 import { Item, Label, Button, Icon } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 class ProjectsCard extends React.Component {
   constructor(props) {
@@ -99,4 +99,4 @@ class ProjectsCard extends React.Component {
   }
 }
 
-export default ProjectsCard;
+export default withRouter(ProjectsCard);
