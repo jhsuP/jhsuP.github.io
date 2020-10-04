@@ -4,10 +4,11 @@ import TopMenu from '../components/TopMenu';
 import projectFile from '../../data/projects.json';
 import ProjectsCard from '../components/ProjectsCard';
 import { Container } from 'semantic-ui-react';
-import internbit from '../../data/projects/internbit.md'
+import internbit from '../../data/projects/2020-07-28 internbit.md'
 
 const importAll = (r) => r.keys().map(r);
-const markdownFiles = importAll(require.context('../../data/projects', false, /\.md$/));
+let markdownFiles = importAll(require.context('../../data/projects', false, /\.md$/));
+markdownFiles = markdownFiles.reverse();
 
 class Projects extends React.Component {
 

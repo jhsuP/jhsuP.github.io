@@ -1,7 +1,7 @@
 import React from 'react';
 import { Item, Image, Label, Button, Icon } from 'semantic-ui-react';
 import ReactMarkdown from 'react-markdown';
-import internbit from '../../data/projects/internbit.md';
+import internbit from '../../data/projects/2020-07-28 internbit.md';
 import htmlParser from 'react-markdown/plugins/html-parser';
 
 
@@ -46,18 +46,6 @@ class ProjectsCard extends React.Component {
   }
 
   render() {
-
-    console.log(this.state.markdown)
-    function description(description) {
-      try {
-        return (
-            <span dangerouslySetInnerHTML={{ __html: description }}/>
-        );
-      } catch (e) {
-        console.log('No description field.');
-        return '';
-      }
-    }
 
     const renderLabels = (tool) => {
       return (
