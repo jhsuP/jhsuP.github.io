@@ -1,7 +1,6 @@
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Menu, Segment, Icon, Image } from 'semantic-ui-react';
-import Projects from '../pages/Projects';
+import { Menu } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 
 class TopMenu extends React.Component {

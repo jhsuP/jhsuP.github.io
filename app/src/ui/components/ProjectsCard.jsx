@@ -1,7 +1,6 @@
 import React from 'react';
-import { Item, Image, Label, Button, Icon } from 'semantic-ui-react';
-import ReactMarkdown from 'react-markdown';
-import htmlParser from 'react-markdown/plugins/html-parser';
+import { Item, Label, Button, Icon } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 class ProjectsCard extends React.Component {
   constructor(props) {
@@ -34,7 +33,7 @@ class ProjectsCard extends React.Component {
               const img = split[1].split('\n')[1].split(':')[1];
               this.setState({summary: summary});
               this.setState({date: date});
-              this.setState({slug: slug});
+              this.setState({slug: slug.trim()});
               this.setState({title: title});
               this.setState({img: img.trim()});
               this.setState({labels: labels});
@@ -74,15 +73,15 @@ class ProjectsCard extends React.Component {
               </Item.Meta>
               <Item.Description style={{ color: 'white' }}>
                 {this.state.summary}
-                {/*<ReactMarkdown escapeHtml={false}*/}
-                {/*               source={this.state.description}/>*/}
-                {/*{description(this.props.project.description)}*/}
               </Item.Description>
               <Item.Extra>
                 {this.state.labels.map((skill) => (
                     renderLabels(skill)
                 ))}
-                <Button floated='right' style={{ backgroundColor: '#3c4044', color: 'white' }}>
+                <Button floated='right'
+                        style={{ backgroundColor: '#3c4044', color: 'white' }}
+                        as={Link}
+                        exact to={this.state.slug}>
                   Read More
                   <Icon name='right chevron'/>
                 </Button>
