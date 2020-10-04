@@ -11,8 +11,8 @@ labels: Summer Research Project, React, Semantic UI, Puppeteer
 
 At its current point, InternBit’s database is supplied from 11 internship websites that were scraped using [SuperAgent](https://www.npmjs.com/package/superagent), [Puppeteer](https://github.com/puppeteer/puppeteer), and [X-Ray](https://github.com/matthewmueller/x-ray). It has a functional filter system that allows students to filter by skills, location, and company. Students can also sort the listing alphabetically by positions and company, and most recent (date). A functional search feature also allows students to input a search query. To see the latest deployment, [click here](https://radgrad.github.io/internbit-ui-jh/). 
 
-<img class="ui huge image" src="/images/layout.gif"> 
-<img class="ui huge image" src="/images/description.png"> 
+<img class="ui huge image centered" src="https://jhsup.github.io/images/layout.gif"> 
+<img class="ui huge image centered" src="https://jhsup.github.io/images/description.png"> 
 
 Future plans include: 
 * Email system
@@ -33,17 +33,17 @@ The website I scraped using Puppeteer were:
 
 After the sites were scraped, [Natural.js](https://github.com/NaturalNode/natural) and Regex was used to parse the listing for missing data fields such as compensation, qualifications, and due date. The statistics are shown below.
 
-<img class="ui huge image" src="/images/statistics.png"> 
+<img class="ui huge image centered" src="https://jhsup.github.io/images/statistics.png"> 
 
 Through this internship, I learned how to research and work with various scraping libraries (eg. Puppeteer & X-Ray). This was also the first time I worked with Regex. I deepened my understanding of React.js and how to work with components & states. At the end of the internship, my team and I presented InternBit to the [2020 SURE Symposium](https://manoa.hawaii.edu/undergrad/urop/summer-undergraduate-research-experience-sure/sure-symposium-3/) so I was able to gain experience in creating and presenting a research poster. Below is a screenshot of our poster, with the actual poster having a .gif that showcased the site.
 
-<img class="ui huge image" src="/images/SURE Conference Poster.jpg"> 
+<img class="ui huge image centered" src="https://jhsup.github.io/images/SURE%20Conference%20Poster.jpg"> 
 
 As InternBit is a research project, I learned how in research, a “failure” can actually be a “success”. For example, I ran into problems scraping Internships (Chegg) as the site is able to catch when we are using automated tools such as Puppeteer. This resulted in me looking for ways to bypass reCAPTCHA, such as changing the userAgent. In the end, I was unable to scrape it as I intended. However, through this experience, I learned how user agents worked. Scraping Internships may be put on a hold for now, but in the future, once InternBit is fully deployed with working capabilities such as recommendation systems, we can evaluate its efficiency. If found that InternBit helps in internship searching, we can present that data to Chegg themselves and ask for access to their API. Additionally, I first coded the site to have pagination but I ran into errors when it came to displaying the page numbers correctly. Unforunately I was unable to figure it out so I tried to implement infinite scroll instead. Rather than using existing libaries such as [react-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component), I decided to write the codebase myself and through the experience, learned more about HTML Dom events such as onscroll.
 
 Source: 
-* <a href="https://github.com/radgrad/internbit-scraper-jh-puppeteer"><i class="large github icon"></i>GitHub/InternBit-Scraper</a>
-* <a href="https://github.com/radgrad/internbit-ui-jh"><i class="large github icon"></i>GitHub/InternBit UI</a>
+* <i class="large github icon"></i>[GitHub/InternBit](https://radgrad.github.io/internbit-ui-jh/)
+* <i class="large github icon"></i>[GitHub/InternBit Repo](https://github.com/radgrad/internbit-ui-jh)
 
 Running Deployment: 
 * [InternBit](https://radgrad.github.io/internbit-ui-jh/)

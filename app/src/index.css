@@ -10,6 +10,7 @@ body {
 
 a {
   color:white !important;
+  font-weight: bold;
 }
 
 a:hover {

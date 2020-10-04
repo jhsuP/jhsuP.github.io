@@ -14,10 +14,9 @@ class TopMenu extends React.Component {
     return (
         <Menu inverted stackable pointing secondary fixed={'top'}
               style={{
-                backgroundColor: 'none',
+                backgroundColor: 'black',
                 padding: '0.5rem 0.5rem',
                 borderColor: 'transparent',
-                marginBottom: '5rem'
               }}>
           <Menu.Item
               style={{ marginLeft: 'calc(34%)' }}
