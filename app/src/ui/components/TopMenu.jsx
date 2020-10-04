@@ -4,9 +4,20 @@ import { Menu } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 
 class TopMenu extends React.Component {
-  state = { activeItem: 'home' };
+  state = { activeItem: localStorage.getItem('tab') };
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
+  handleItemClick = (e, { name }) => {
+    this.setState({ activeItem: name });
+    localStorage.setItem('tab', name);
+  };
+
+  componentDidMount(){
+    let defaultTab = localStorage.getItem('tab');
+    this.setState(()=>({
+          defaultTab: defaultTab
+        })
+    );
+  }
 
   render() {
     const { activeItem } = this.state;
