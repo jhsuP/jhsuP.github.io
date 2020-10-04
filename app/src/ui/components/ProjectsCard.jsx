@@ -6,7 +6,7 @@ class ProjectsCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      markdown: '' ,
+      markdown: '',
       description: '',
       summary: '',
       date: '',
@@ -31,12 +31,12 @@ class ProjectsCard extends React.Component {
               const slug = split[1].split('\n')[3].split(':')[1];
               const title = split[1].split('\n')[2].split(':')[1];
               const img = split[1].split('\n')[1].split(':')[1];
-              this.setState({summary: summary});
-              this.setState({date: date});
-              this.setState({slug: slug.trim()});
-              this.setState({title: title});
-              this.setState({img: img.trim()});
-              this.setState({labels: labels});
+              this.setState({ summary: summary });
+              this.setState({ date: date });
+              this.setState({ slug: slug.trim() });
+              this.setState({ title: title });
+              this.setState({ img: img.trim() });
+              this.setState({ labels: labels });
               this.setState({ description: split[2] });
             })
     );
@@ -78,13 +78,18 @@ class ProjectsCard extends React.Component {
                 {this.state.labels.map((skill) => (
                     renderLabels(skill)
                 ))}
-                <Button floated='right'
-                        style={{ backgroundColor: '#3c4044', color: 'white' }}
-                        as={Link}
-                        exact to={this.state.slug}>
-                  Read More
-                  <Icon name='right chevron'/>
-                </Button>
+                <Link to={{
+                  pathname: this.state.slug,
+                  description: this.state.description,
+                  title: this.state.title,
+                }}>
+                  <Button floated='right'
+                          style={{ backgroundColor: '#3c4044', color: 'white' }}>
+                    Read More
+                    <Icon name='right chevron'/>
+                  </Button>
+                </Link>
+
               </Item.Extra>
             </Item.Content>
           </Item>
