@@ -14,6 +14,7 @@ class Blog extends React.Component {
 
     return (
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div>
           <Container style={{  margin: '0rem 2rem', paddingTop: '8rem'  }}>
             <Item.Group divided
@@ -28,6 +29,8 @@ class Blog extends React.Component {
                   blog={blog} key={blog}/>)}
             </Item.Group>
 =======
+=======
+>>>>>>> parent of 06d3b22... added resume
         <div id={'menuBG'}>
           <Container style={{ margin: '10rem 2rem' }}>
 

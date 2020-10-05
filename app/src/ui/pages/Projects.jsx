@@ -2,9 +2,13 @@ import React from 'react';
 import _ from 'lodash';
 import ProjectsCard from '../components/ProjectsCard';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Container, Item } from 'semantic-ui-react';
 import Footer from '../components/Footer';
 import { BrowserRouter as Router } from 'react-router-dom';
+=======
+import { Container } from 'semantic-ui-react';
+>>>>>>> parent of 06d3b22... added resume
 =======
 import { Container } from 'semantic-ui-react';
 >>>>>>> parent of 06d3b22... added resume
@@ -20,6 +24,7 @@ class Projects extends React.Component {
 
     return (
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div>
           <Container style={{ margin: '0rem 2rem', paddingTop: '8em' }}>
             <Item.Group divided
@@ -34,12 +39,17 @@ class Projects extends React.Component {
                   project={project} key={index}/>)}
             </Item.Group>
 =======
+=======
+>>>>>>> parent of 06d3b22... added resume
         <div id={'menuBG'}>
           <Container style={{ margin: '10rem 2rem' }}>
 
             {_.map(markdownFiles, (project, index) => <ProjectsCard
                 project={project} key={index}/>)}
 
+<<<<<<< HEAD
+>>>>>>> parent of 06d3b22... added resume
+=======
 >>>>>>> parent of 06d3b22... added resume
           </Container>
         </div>
