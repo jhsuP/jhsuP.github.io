@@ -37,9 +37,9 @@ class Project extends React.Component {
     url = url[url.length-1];
 
     return (
-        <div id={'menuBG'}>
+        <div>
           <SimpleStorage parent={this} prefix={url} />
-          <Container style={{ margin: '10rem 2rem' , color: 'white'}}>
+          <Container style={{ margin: '0rem 2rem', paddingTop: '8rem', color: 'white'}}>
             <div style={{backgroundColor: '#ffffff0d', padding: '4rem', fontSize: '17px'}}>
               <Header as={'h1'} inverted textAlign={'center'}>
                 {this.state.title}

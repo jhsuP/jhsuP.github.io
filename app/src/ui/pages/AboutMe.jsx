@@ -29,8 +29,8 @@ class AboutMe extends React.Component {
     };
 
     return (
-        <div id={'menuBG'}>
-          <Container style={{ margin: '6rem 2rem 1rem 2rem', color: 'white' }}>
+        <div>
+          <Container style={{  margin: '0rem 2rem', paddingTop: '7rem', color: 'white' }}>
             <div style={{ backgroundColor: '#ffffff0d', padding: '4rem', fontSize: '17px' }}>
               <Header as={'h1'} inverted textAlign={'center'}>
                 Hello! ☕

@@ -13,8 +13,8 @@ class Blog extends React.Component {
   render() {
 
     return (
-        <div id={'menuBG'}>
-          <Container style={{ margin: '10rem 2rem' }}>
+        <div>
+          <Container style={{  margin: '0rem 2rem', paddingTop: '8rem'  }}>
 
             {_.map(markdownFiles, (blog, index) => <BlogCard
                 blog={blog} key={blog}/>)}

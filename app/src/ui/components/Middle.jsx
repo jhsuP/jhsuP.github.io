@@ -28,7 +28,6 @@ class Middle extends React.Component{
                 </a>
               </div>
               <p style={pPad}>CS Student. Video Editor. Cat Enthusiast.</p>
-
             </div>
           </Container>
         </div>

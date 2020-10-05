@@ -18,15 +18,13 @@
 
   /* Set up proportionate scaling */
   width: 100%;
-  height:  calc(100% - 200px);
-  overflow: auto;
-
+  height: 105%;
+  position: fixed;
+  overflow: scroll;
 
   /* Set up positioning */
-  position: fixed;
   top: 0;
   left: 0;
-  backdrop-filter: blur(0.8);
 }
 
 .bg-text {
