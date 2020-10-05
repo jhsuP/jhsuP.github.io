@@ -1,0 +1,53 @@
+[
+  {
+    "name": "InternBit",
+    "date": "2020-07-28",
+    "shortDesp": "InternBit is a web application that seeks to make internship searching easier.",
+    "tools": [
+      "React",
+      "Web Scraping",
+      "Summer Research Project",
+      "Puppeteer"
+    ],
+    "image": "https://jhsup.github.io/images/internbit-logo.png",
+    "slug": "internbit",
+    "description": ""
+  },
+  {
+    "name": "Ono On The Way",
+    "date": "2020-05-15",
+    "shortDesp": "Ono On-The-Way is a web application that UH Manoa students can use when they do not want interrupt their work to go out for on-campus food.",
+    "tools": [
+      "React",
+      "MongoDB",
+      "Semantic UI"
+    ],
+    "image": "https://jhsup.github.io/images/Logo-Transparent-lback.png",
+    "slug": "ono-otw",
+    "description": ""
+  },
+  {
+    "name": "Discord To-Do Bot",
+    "date": "2020-01-05",
+    "shortDesp": "A Discord \"Todo\" bot I developed used by Moderators of a Discord server with 700+ members.",
+    "tools": [
+      "Discord.py",
+      "Discord"
+    ],
+    "image": "https://jhsup.github.io/images/Logo.png",
+    "slug": "discord-todo",
+    "description": ""
+  },
+  {
+    "name": "Surf's Up - Dog Edition",
+    "date": "2018-11-10",
+    "shortDesp": "Developed a game where the objective was to survive as long as possible.",
+    "tools": [
+      "Java",
+      "EZGraphics"
+    ],
+    "image": "https://jhsup.github.io/images/Game_Start.png",
+    "slug": "surfs-up",
+    "description": ""
+  }
+]
