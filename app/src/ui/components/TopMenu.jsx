@@ -36,7 +36,7 @@ class TopMenu extends React.Component {
               onClick={this.handleItemClick}
               icon={"user"}
               as={ Link }
-              exact to='/'
+              to='/'
           />
           <Menu.Item
               name='about'
@@ -44,7 +44,7 @@ class TopMenu extends React.Component {
               onClick={this.handleItemClick}
               icon={"user"}
               as={ Link }
-              exact to='/about'
+              to='/about'
           />
           <Menu.Item
               name='projects'
@@ -52,7 +52,7 @@ class TopMenu extends React.Component {
               onClick={this.handleItemClick}
               icon={"code"}
               as={ Link }
-              exact to='/projects'
+              to='/projects'
           />
           <Menu.Item
               name='blog'
@@ -60,7 +60,7 @@ class TopMenu extends React.Component {
               onClick={this.handleItemClick}
               icon="book"
               as={ Link }
-              exact to='/blog'
+              to='/blog'
           />
           <Menu.Item
               name='resume'
@@ -68,7 +68,7 @@ class TopMenu extends React.Component {
               onClick={this.handleItemClick}
               icon="file code"
               as={ Link }
-              exact to='/resume'
+              to='/resume'
           />
         </Menu>
 

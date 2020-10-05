@@ -2,8 +2,6 @@ import React from 'react';
 import _ from 'lodash';
 import ProjectsCard from '../components/ProjectsCard';
 import { Container, Item } from 'semantic-ui-react';
-import Footer from '../components/Footer';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 const importAll = (r) => r.keys().map(r);
 let markdownFiles = importAll(require.context('../../data/projects', false, /\.md$/));
@@ -26,7 +24,7 @@ class Projects extends React.Component {
                         >
 
               {_.map(markdownFiles, (project, index) => <ProjectsCard
-                  project={project} key={index}/>)}
+                  project={project} key={project}/>)}
             </Item.Group>
           </Container>
         </div>

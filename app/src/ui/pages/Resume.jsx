@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, Icon, Label } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import { withRouter } from "react-router-dom";
 
 class Resume extends React.Component {

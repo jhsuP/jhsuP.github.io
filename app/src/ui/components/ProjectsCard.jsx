@@ -1,5 +1,5 @@
 import React from 'react';
-import { Item, Label, Button, Icon, Segment, Header } from 'semantic-ui-react';
+import { Item, Label, Button, Icon } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 
 class ProjectsCard extends React.Component {

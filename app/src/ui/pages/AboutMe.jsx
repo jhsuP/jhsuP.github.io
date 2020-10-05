@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, Icon, Label } from 'semantic-ui-react';
+import { Container, Header, Label } from 'semantic-ui-react';
 import { withRouter } from "react-router-dom";
 
 class AboutMe extends React.Component {
@@ -16,13 +16,14 @@ class AboutMe extends React.Component {
       'Psychology', 'Cognitive Science', 'Social Computing'
     ];
 
-    const renderLabels = (skill) => {
+    const renderLabels = (skill, index) => {
       return (
           <Label size={'large'}
                  style={{
                    backgroundColor: '#00000059',
                    color: 'white', margin: '0.4rem'
-                 }}>
+                 }}
+          key={index}>
             {skill}
           </Label>
       )
@@ -64,8 +65,8 @@ class AboutMe extends React.Component {
                 Interests
               </Header>
               <div align={'center'}>
-                {interests.map((interest) => (
-                    renderLabels(interest)
+                {interests.map((interest, index) => (
+                    renderLabels(interest, index)
                 ))}
               </div>
 
