@@ -72,7 +72,13 @@ class ProjectsCard extends React.Component {
             <Item.Image
                 src={this.state.img}/>
             <Item.Content>
-              <Item.Header as='a'>{this.state.title}</Item.Header>
+              <Link to={{
+                pathname: this.state.slug,
+                description: this.state.description,
+                title: this.state.title,
+              }}>
+                <Item.Header as='a'>{this.state.title}</Item.Header>
+              </Link>
               <Item.Meta>
                     <span style={{ color: 'white' }}>
                        {/*{this.props.project.date}*/}

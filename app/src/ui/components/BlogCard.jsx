@@ -88,7 +88,13 @@ class BlogCard extends React.Component {
                     className={'project'}>
           <Item>
             <Item.Content>
-              <Item.Header as='a'>{this.state.title}</Item.Header>
+              <Link to={{
+                pathname: this.state.slug,
+                description: this.state.description,
+                title: this.state.title,
+              }}>
+                <Item.Header as='a'>{this.state.title}</Item.Header>
+              </Link>
               <Item.Meta>
                     <span style={{ color: 'white' }}>
                       {parseDate(this.state.date)}
