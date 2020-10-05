@@ -1,75 +1,75 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88fe84b8a6676d8b3fb62e50aa00d391",
+    "revision": "8fb62b52ed2d4270c0851ed9b23664b8",
     "url": "/index.html"
   },
   {
-    "revision": "7f6b190db15d15cb10dd",
+    "revision": "a34ec9acc8745d285015",
     "url": "/static/css/2.5f1adba5.chunk.css"
   },
   {
-    "revision": "95353ce35ddc7a3435de",
-    "url": "/static/css/main.b539533f.chunk.css"
+    "revision": "32ab06cbd4f6a2d4873a",
+    "url": "/static/css/main.81cfc970.chunk.css"
   },
   {
-    "revision": "7f6b190db15d15cb10dd",
-    "url": "/static/js/2.8c04f2e1.chunk.js"
+    "revision": "a34ec9acc8745d285015",
+    "url": "/static/js/2.e8b7c574.chunk.js"
   },
   {
     "revision": "6f4c12bce29286065e27b5717b3532b6",
-    "url": "/static/js/2.8c04f2e1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e8b7c574.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95353ce35ddc7a3435de",
-    "url": "/static/js/main.d3452f1f.chunk.js"
+    "revision": "32ab06cbd4f6a2d4873a",
+    "url": "/static/js/main.8d558a4c.chunk.js"
   },
   {
     "revision": "f438879c68bfc8864397",
     "url": "/static/js/runtime-main.cc36b19e.js"
   },
   {
-    "revision": "55fe60e3f1b1bf41c6ee76c24c8f8bc7",
-    "url": "/static/media/2018-11-10 surf-up.55fe60e3.md"
+    "revision": "8beb37e35654e6dee7c2ac5f782013ab",
+    "url": "/static/media/2018-11-10 surf-up.8beb37e3.md"
   },
   {
-    "revision": "263866e73c5d4f8e3f72354ba0fe0590",
-    "url": "/static/media/2020-01-05 discord-to-do.263866e7.md"
+    "revision": "8f48a530a0bf5a76b48fd4d300aac3a8",
+    "url": "/static/media/2020-01-05 discord-to-do.8f48a530.md"
   },
   {
-    "revision": "f0b86212329fa854b32a973c5bb3f248",
-    "url": "/static/media/2020-01-21 best-of-both-worlds.f0b86212.md"
+    "revision": "afd482322d50edf5a4c24049b33da0b9",
+    "url": "/static/media/2020-01-21 best-of-both-worlds.afd48232.md"
   },
   {
-    "revision": "99f27588aa3076df975168c763bb5da7",
-    "url": "/static/media/2020-01-30 smart-questions.99f27588.md"
+    "revision": "ef668fee712f134dd55b428c0d0500a8",
+    "url": "/static/media/2020-01-30 smart-questions.ef668fee.md"
   },
   {
-    "revision": "5cf2a97f323def4ac089e981f8aba10f",
-    "url": "/static/media/2020-02-13 coding-standards.5cf2a97f.md"
+    "revision": "0236d39d0afb3fba6ce8c08a694dbf6c",
+    "url": "/static/media/2020-02-13 coding-standards.0236d39d.md"
   },
   {
     "revision": "a3676fa31f2b2d1b562afffafe13086f",
     "url": "/static/media/2020-05-15 ono-otw.a3676fa3.md"
   },
   {
-    "revision": "cff98116fdf0405ecf4a0e2bcc408c72",
-    "url": "/static/media/2020-05-15 to-a-new-start.cff98116.md"
+    "revision": "427f1ae38161d2c3e3716859db5dd826",
+    "url": "/static/media/2020-05-15 to-a-new-start.427f1ae3.md"
   },
   {
-    "revision": "da8d161692d269e859c84f349a882845",
-    "url": "/static/media/2020-05-18 internbit-resources.da8d1616.md"
+    "revision": "54893a6f5ed94e358872bc90b03ddbc8",
+    "url": "/static/media/2020-05-18 internbit-resources.54893a6f.md"
   },
   {
-    "revision": "e8ade42f2a998c8b31c9790d6e538fef",
-    "url": "/static/media/2020-05-22 radgrad.e8ade42f.md"
+    "revision": "a26253bf2597dbae21399759e3047e89",
+    "url": "/static/media/2020-05-22 radgrad.a26253bf.md"
   },
   {
-    "revision": "e2508ff9d423808c44643fd19706021e",
-    "url": "/static/media/2020-06-04 x-ray evaluation.e2508ff9.md"
+    "revision": "0f5b701798eeb81829527684c14b50a9",
+    "url": "/static/media/2020-06-04 x-ray evaluation.0f5b7017.md"
   },
   {
-    "revision": "d64e3e3092bbf535f3739232635b510b",
-    "url": "/static/media/2020-06-05 pair-programming.d64e3e30.md"
+    "revision": "0df0cd4f5cfeaa55e01df12a1aa28506",
+    "url": "/static/media/2020-06-05 pair-programming.0df0cd4f.md"
   },
   {
     "revision": "cdfd5ce96e55709d850f6972b3bdea7c",
