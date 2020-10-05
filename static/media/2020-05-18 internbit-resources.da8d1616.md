@@ -1,0 +1,18 @@
+@@@
+title: Internship Recommendation System
+permalink: blog/internbit-resources
+date: 2020-05-18
+summary: Designing and implementing an internship recommendation system is no easy feat. However, the resources listed provide a pathway into possible avenues of how to do so. The article written by Ishan Nangia provides an insight into the steps required to build an Internship Recommendation System. Ishan used a hybrid system of knowledge-based and content-based to create it. Knowledge-base consists of the user’s knowledge, which in this case would use the courses the student has taken as the key to generating recommendations. Content-base recommends items based on their similarity to others. In the context of integrating RadGrad, it would be the internships themselves. 
+labels: Software Development, Research, RadGrad, InternBit
+@@@
+
+Designing and implementing an internship recommendation system is no easy feat. However, the resources listed provide a pathway into possible avenues of how to do so. 
+
+The article written by [Ishan Nangia](https://medium.com/@ishannangia/building-an-internship-recommendation-system-i-introduction-8ab428131483) provides an insight into the steps required to build an Internship Recommendation System. Ishan used a hybrid system of knowledge-based and content-based to create it. Knowledge-base consists of the user’s knowledge, which in this case would use the courses the student has taken as the key to generating recommendations. Content-base recommends items based on their similarity to others. In the context of integrating RadGrad, it would be the internships themselves. For example, if a student were to select an internship that involves “data science”, it would recommend internships with that associated label. Additionally, some of the issues presented by him provide us with guidance on how to address them. For example, one of the issues he faced was when the website he wanted to scrape stated in their Terms of Service that it was illegal. Prior to reading his article, the idea of scraping a site being illegal never crossed my mind. Imagine the time lost if I finally coded a working crawler only to find the site I wanted to run it on stated it was illegal.  
+
+The article written by [Ingrid](https://techxplore.com/news/2019-03-ai-based-internship-placements.html), on the other hand, builds their recommendations using AI. The AI is fed the student’s skills, grades, aspirations, interests, attitude, and behavior and outputs a list of recommended internships. It doesn’t state how they were able to generate internship information. 
+
+Internbit will probably utilize the method provided by Ishan more. His method is more in line with current information already provided by RadGrad (student’s skills and interests). Compared to the method provided by the Universitas Pendidikan Ganesha, InternBit probably will not have to complete the Inventory Personal Survey to measure their attitude and behavior. 
+
+The difference between InternBit and the resources above is that it will already have access to the student’s skills and interests. Student skills are automatically updated via the courses they take and involve little to no work from the userbase. Additionally, Ishan’s script runs through a command line whereas RadGrad is already a web application. With no extra cost (hopefully), once the implementation of the recommendation system is set, the integration of InternBit to RadGrad should be fairly smooth. Another difference is that InternBit will also list internships from companies who contact the University directly.  An evaluation system will also be in place for us to gather how effective the system is, which can allow us to modify the engine if needed.
+
