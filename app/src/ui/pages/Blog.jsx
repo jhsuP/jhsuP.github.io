@@ -13,6 +13,7 @@ class Blog extends React.Component {
   render() {
 
     return (
+<<<<<<< HEAD
         <div>
           <Container style={{  margin: '0rem 2rem', paddingTop: '8rem'  }}>
             <Item.Group divided
@@ -26,6 +27,14 @@ class Blog extends React.Component {
               {_.map(markdownFiles, (blog, index) => <BlogCard
                   blog={blog} key={blog}/>)}
             </Item.Group>
+=======
+        <div id={'menuBG'}>
+          <Container style={{ margin: '10rem 2rem' }}>
+
+            {_.map(markdownFiles, (blog, index) => <BlogCard
+                blog={blog} key={blog}/>)}
+
+>>>>>>> parent of 06d3b22... added resume
           </Container>
         </div>
 
