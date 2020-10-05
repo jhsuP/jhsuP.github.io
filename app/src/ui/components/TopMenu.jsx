@@ -55,12 +55,12 @@ class TopMenu extends React.Component {
               exact to='/projects'
           />
           <Menu.Item
-              name='essays'
-              active={activeItem === 'essays'}
+              name='blog'
+              active={activeItem === 'blog'}
               onClick={this.handleItemClick}
               icon="book"
               as={ Link }
-              exact to='/essays'
+              exact to='/blog'
           />
           <Menu.Item
               name='resume'

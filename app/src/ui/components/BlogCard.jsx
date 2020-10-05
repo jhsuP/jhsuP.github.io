@@ -2,17 +2,16 @@ import React from 'react';
 import { Item, Label, Button, Icon, Segment, Header } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 
-class ProjectsCard extends React.Component {
+class BlogCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       markdown: '',
       description: '',
-      summary: '',
       date: '',
       slug: '',
       title: '',
-      img: '',
+      summary: '',
       labels: [],
       loading: true,
     };
@@ -20,31 +19,46 @@ class ProjectsCard extends React.Component {
 
   componentDidMount() {
 
-    fetch(this.props.project).then(res => res.text()).then(
+    fetch(this.props.blog).then(res => res.text()).then(
         text =>
             this.setState({
               markdown: text
             }, () => {
+              // title: The Rad in RadGrad
+              // permalink: essays/radgrad
+              // date: 2020-05-22
+              // labels: Software Development, Research, RadGrad
               const split = this.state.markdown.split("@@@");
-              const labels = split[1].split('\n')[6].split(':')[1].split(',');
-              const summary = split[1].split('\n')[5].split(':')[1];
-              const date = split[1].split('\n')[4].split(':')[1];
-              const slug = split[1].split('\n')[3].split(':')[1];
-              const title = split[1].split('\n')[2].split(':')[1];
-              const img = split[1].split('\n')[1].split(':')[1];
-              this.setState({ summary: summary });
+              const labels = split[1].split('\n')[5].split(':')[1].split(',');
+              const summary = split[1].split('\n')[4].split(':')[1];
+              const date = split[1].split('\n')[3].split(':')[1];
+              const slug = split[1].split('\n')[2].split(':')[1];
+              const title = split[1].split('\n')[1].split(':')[1];
               this.setState({ date: date });
               this.setState({ slug: slug.trim() });
               this.setState({ title: title });
-              this.setState({ img: img.trim() });
               this.setState({ labels: labels });
+              this.setState({ summary: summary });
               this.setState({ description: split[2] });
-              this.setState({ loading: true });
+              this.setState({ loading: false });
             })
     );
   }
 
   render() {
+
+    const parseDate = (date) => {
+      let parts = date.split('-');
+      const newDate = new Date(parts[0], parts[1]-1, parts[2]);
+      if (!isNaN(newDate)) {
+        return (
+            <p>
+              {newDate.toDateString()}
+            </p>
+
+        )
+      }
+    };
 
     const renderLabels = (tool) => {
       return (
@@ -54,9 +68,13 @@ class ProjectsCard extends React.Component {
       )
     };
 
-    if (this.state.loading === false) {
+    if (this.state.loading === true) {
       return (
-          <p/>
+          <Segment placeholder style={{backgroundColor: 'rgba(255, 255, 255, 0.05)'}}>
+            <Header icon inverted>
+              Loading information...
+            </Header>
+          </Segment>
       )
     }
 
@@ -69,18 +87,15 @@ class ProjectsCard extends React.Component {
                     }}
                     className={'project'}>
           <Item>
-            <Item.Image
-                src={this.state.img}/>
             <Item.Content>
               <Item.Header as='a'>{this.state.title}</Item.Header>
               <Item.Meta>
                     <span style={{ color: 'white' }}>
-                       {/*{this.props.project.date}*/}
-                      {this.state.date}
+                      {parseDate(this.state.date)}
                     </span>
               </Item.Meta>
               <Item.Description style={{ color: 'white' }}>
-                {this.state.summary}
+                {this.state.summary.substring(0, 400)}...
               </Item.Description>
               <Item.Extra>
                 {this.state.labels.map((skill) => (
@@ -107,4 +122,4 @@ class ProjectsCard extends React.Component {
   }
 }
 
-export default withRouter(ProjectsCard);
+export default withRouter(BlogCard);

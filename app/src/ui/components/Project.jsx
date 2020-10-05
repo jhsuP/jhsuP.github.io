@@ -3,7 +3,7 @@ import { Container, Header } from 'semantic-ui-react';
 import ReactMarkdown from 'react-markdown';
 import { withRouter } from "react-router-dom";
 import SimpleStorage  from "react-simple-storage";
-
+import CodeBlock from './CodeBlock';
 
 class Project extends React.Component {
   constructor(props) {
@@ -46,6 +46,7 @@ class Project extends React.Component {
               </Header>
               <ReactMarkdown escapeHtml={false}
                              source={this.state.description}
+                             renderers={{code: CodeBlock}}
               />
             </div>
           </Container>
