@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b539533f.chunk.css",
+    "main.js": "/static/js/main.fb152e41.chunk.js",
+    "main.js.map": "/static/js/main.fb152e41.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc36b19e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc36b19e.js.map",
+    "static/css/2.5f1adba5.chunk.css": "/static/css/2.5f1adba5.chunk.css",
+    "static/js/2.8c04f2e1.chunk.js": "/static/js/2.8c04f2e1.chunk.js",
+    "static/js/2.8c04f2e1.chunk.js.map": "/static/js/2.8c04f2e1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.408f1d89e1414f4ce11b537dc38cc72d.js": "/precache-manifest.408f1d89e1414f4ce11b537dc38cc72d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5f1adba5.chunk.css.map": "/static/css/2.5f1adba5.chunk.css.map",
+    "static/css/main.b539533f.chunk.css.map": "/static/css/main.b539533f.chunk.css.map",
+    "static/js/2.8c04f2e1.chunk.js.LICENSE.txt": "/static/js/2.8c04f2e1.chunk.js.LICENSE.txt",
+    "static/media/2018-11-10 surf-up.md": "/static/media/2018-11-10 surf-up.55fe60e3.md",
+    "static/media/2020-01-05 discord-to-do.md": "/static/media/2020-01-05 discord-to-do.263866e7.md",
+    "static/media/2020-01-21 best-of-both-worlds.md": "/static/media/2020-01-21 best-of-both-worlds.f0b86212.md",
+    "static/media/2020-01-30 smart-questions.md": "/static/media/2020-01-30 smart-questions.99f27588.md",
+    "static/media/2020-02-13 coding-standards.md": "/static/media/2020-02-13 coding-standards.5cf2a97f.md",
+    "static/media/2020-05-15 ono-otw.md": "/static/media/2020-05-15 ono-otw.96c2e312.md",
+    "static/media/2020-05-15 to-a-new-start.md": "/static/media/2020-05-15 to-a-new-start.cff98116.md",
+    "static/media/2020-05-18 internbit-resources.md": "/static/media/2020-05-18 internbit-resources.da8d1616.md",
+    "static/media/2020-05-22 radgrad.md": "/static/media/2020-05-22 radgrad.e8ade42f.md",
+    "static/media/2020-06-04 x-ray evaluation.md": "/static/media/2020-06-04 x-ray evaluation.e2508ff9.md",
+    "static/media/2020-06-05 pair-programming.md": "/static/media/2020-06-05 pair-programming.d64e3e30.md",
+    "static/media/2020-07-28 internbit.md": "/static/media/2020-07-28 internbit.6e8cba9e.md",
+    "static/media/App.css": "/static/media/BG_IMG.983387b6.jpg",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/github.jpg": "/static/media/github.0d7a432a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc36b19e.js",
+    "static/css/2.5f1adba5.chunk.css",
+    "static/js/2.8c04f2e1.chunk.js",
+    "static/css/main.b539533f.chunk.css",
+    "static/js/main.fb152e41.chunk.js"
+  ]
+}
