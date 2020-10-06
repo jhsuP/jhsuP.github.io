@@ -13,7 +13,7 @@ class AboutMe extends React.Component {
 
     const interests = [
       'Full-Stack Development', 'Software Engineering', 'Social Computing', 'Human-Computer Interaction',
-      'Psychology', 'Cognitive Science', 'Social Computing'
+      'Psychology', 'Cognitive Science', 'Front-End Development', 'Mobile Development'
     ];
 
     const renderLabels = (skill, index) => {
