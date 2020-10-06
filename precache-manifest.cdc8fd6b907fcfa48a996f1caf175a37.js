@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a84ddcab4ae13587f4a511e1fa45283c",
+    "revision": "ca9d0a7aef77b837760c8fe37a9c8a3c",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.5f1adba5.chunk.css"
   },
   {
-    "revision": "747c7eaf3f4801780592",
+    "revision": "511533559c2153fd6344",
     "url": "/static/css/main.81cfc970.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.e8b7c574.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "747c7eaf3f4801780592",
-    "url": "/static/js/main.b98e77c0.chunk.js"
+    "revision": "511533559c2153fd6344",
+    "url": "/static/js/main.aab40bad.chunk.js"
   },
   {
     "revision": "f438879c68bfc8864397",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/2020-06-05 pair-programming.0df0cd4f.md"
   },
   {
-    "revision": "e0e9ad66576482de592daed98fa5fb4c",
-    "url": "/static/media/2020-07-28 internbit.e0e9ad66.md"
+    "revision": "ffa479a2f891f14af84e283d8a8503a7",
+    "url": "/static/media/2020-07-28 internbit.ffa479a2.md"
   },
   {
     "revision": "983387b626b243521a483d941402c5f3",

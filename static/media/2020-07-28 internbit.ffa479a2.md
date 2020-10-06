@@ -42,9 +42,9 @@ Through this internship, I learned how to research and work with various scrapin
 As InternBit is a research project, I learned how in research, a “failure” can actually be a “success”. For example, I ran into problems scraping Internships (Chegg) as the site is able to catch when we are using automated tools such as Puppeteer. This resulted in me looking for ways to bypass reCAPTCHA, such as changing the userAgent. In the end, I was unable to scrape it as I intended. However, through this experience, I learned how user agents worked. Scraping Internships may be put on a hold for now, but in the future, once InternBit is fully deployed with working capabilities such as recommendation systems, we can evaluate its efficiency. If found that InternBit helps in internship searching, we can present that data to Chegg themselves and ask for access to their API. Additionally, I first coded the site to have pagination but I ran into errors when it came to displaying the page numbers correctly. Unforunately I was unable to figure it out so I tried to implement infinite scroll instead. Rather than using existing libaries such as [react-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component), I decided to write the codebase myself and through the experience, learned more about HTML Dom events such as onscroll.
 
 Source: 
-* <i class="large github icon"></i>[GitHub/InternBit](https://radgrad.github.io/internbit-ui-jh/)
-* <i class="large github icon"></i>[GitHub/InternBit Repo](https://github.com/radgrad/internbit-ui-jh)
+* <i class="large github icon"></i>[GitHub/InternBit](https://radgrad.github.io/internbit)
+* <i class="large github icon"></i>[GitHub/InternBit Repo](https://github.com/radgrad/internbit)
 
 Running Deployment: 
-* [InternBit](https://radgrad.github.io/internbit-ui-jh/)
+* [InternBit](https://radgrad.github.io/internbit/)
 
