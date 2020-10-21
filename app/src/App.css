@@ -14,7 +14,6 @@
       url("./images/BG_IMG.jpg") no-repeat center center fixed;
   background-size: cover;
   min-height: 100%;
-  min-width: 1024px;
 
   /* Set up proportionate scaling */
   width: 100%;
