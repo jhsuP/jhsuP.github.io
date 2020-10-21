@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 import SimpleStorage  from "react-simple-storage";
 import CodeBlock from './CodeBlock';
 
-class Project extends React.Component {
+class Blog extends React.Component {
   constructor(props) {
     super(props);
 
@@ -34,7 +34,7 @@ class Project extends React.Component {
 
   componentDidMount() {
     const importAll = (r) => r.keys().map(r);
-    let markdownFiles = importAll(require.context('../../data/projects', false, /\.md$/));
+    let markdownFiles = importAll(require.context('../../data/blog', false, /\.md$/));
     markdownFiles = markdownFiles.reverse();
     // console.log(markdownFiles);
     let url = window.location.href;
@@ -59,7 +59,7 @@ class Project extends React.Component {
               // date: 2020-05-22
               // labels: Software Development, Research, RadGrad
               const split = this.state.markdown.split("@@@");
-              const title = split[1].split('\n')[2].split(':')[1];
+              const title = split[1].split('\n')[1].split(':')[1];
               this.setState({ title: title });
               this.setState({ description: split[2] });
               this.setState({ loading: false });
@@ -103,4 +103,4 @@ class Project extends React.Component {
   }
 }
 
-export default withRouter(Project);
+export default withRouter(Blog);

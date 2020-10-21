@@ -45,6 +45,7 @@ class BlogCard extends React.Component {
     );
   }
 
+
   render() {
 
     const parseDate = (date) => {

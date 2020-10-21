@@ -6,7 +6,8 @@ import Project from './ui/components/Project';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import TopMenu from './ui/components/TopMenu';
 import AboutMe from './ui/pages/AboutMe';
-import Blog from './ui/pages/Blog';
+import Blogs from './ui/pages/Blogs';
+import Blog from './ui/components/Blog';
 import Footer from './ui/components/Footer';
 import Resume from './ui/pages/Resume';
 
@@ -20,8 +21,8 @@ function App() {
             <Route exact path='/about' component={AboutMe}/>
             <Route exact path='/projects' component={Projects}/>
             <Route exact path='/projects/:name' component={Project}/>
-            <Route exact path='/blog' component={Blog}/>
-            <Route exact path='/blog/:title' component={Project}/>
+            <Route exact path='/blog' component={Blogs}/>
+            <Route exact path='/blog/:title' component={Blog}/>
             <Route exact path='/resume' component={Resume}/>
           </Switch>
           <Footer/>

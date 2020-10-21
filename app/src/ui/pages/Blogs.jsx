@@ -7,7 +7,7 @@ const importAll = (r) => r.keys().map(r);
 let markdownFiles = importAll(require.context('../../data/blog', false, /\.md$/));
 markdownFiles = markdownFiles.reverse();
 
-class Blog extends React.Component {
+class Blogs extends React.Component {
 
 
   render() {
@@ -33,4 +33,4 @@ class Blog extends React.Component {
   }
 }
 
-export default Blog;
+export default Blogs;
