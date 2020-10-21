@@ -16,7 +16,7 @@ class HomePage extends React.Component {
             <Container style={{  margin: '0rem 2rem', paddingTop: '7rem', color: 'white' }}
                        textAlign={'center'}>
               <div style={{ backgroundColor: '#ffffff0d', padding: '4rem', fontSize: '17px',
-                borderRadius: '4rem' }}>
+                borderRadius: '4rem', fontFamily: 'Abel' }}>
                 <h1>JENNIFER HSU</h1>
                 <div>
                   <Image centered style={imgSize} circular src={profileImg} size={'medium'}/>
