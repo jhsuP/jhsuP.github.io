@@ -1,7 +1,7 @@
 @@@
 image: images/Logo.png
 title: Discord To-Do Bot
-permalink: projects/todo-bot
+permalink: projects/discord-to-do
 date: 2020-01-05
 summary: A Discord "Todo" bot I developed used by Moderators of a Discord server with 700+ members. 
 labels: Python, Discord.py 

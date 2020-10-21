@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.81cfc970.chunk.css",
-    "main.js": "/static/js/main.f833b3e9.chunk.js",
-    "main.js.map": "/static/js/main.f833b3e9.chunk.js.map",
+    "main.css": "/static/css/main.0c1fdca4.chunk.css",
+    "main.js": "/static/js/main.6aa59bf1.chunk.js",
+    "main.js.map": "/static/js/main.6aa59bf1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc36b19e.js",
     "runtime-main.js.map": "/static/js/runtime-main.cc36b19e.js.map",
     "static/css/2.5f1adba5.chunk.css": "/static/css/2.5f1adba5.chunk.css",
-    "static/js/2.e8b7c574.chunk.js": "/static/js/2.e8b7c574.chunk.js",
-    "static/js/2.e8b7c574.chunk.js.map": "/static/js/2.e8b7c574.chunk.js.map",
+    "static/js/2.c9ed3a9d.chunk.js": "/static/js/2.c9ed3a9d.chunk.js",
+    "static/js/2.c9ed3a9d.chunk.js.map": "/static/js/2.c9ed3a9d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9409c30571809bb91dbf66e9b518fc2d.js": "/precache-manifest.9409c30571809bb91dbf66e9b518fc2d.js",
+    "precache-manifest.56c38d0d0cf0269a2de1ed353d79cef3.js": "/precache-manifest.56c38d0d0cf0269a2de1ed353d79cef3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5f1adba5.chunk.css.map": "/static/css/2.5f1adba5.chunk.css.map",
-    "static/css/main.81cfc970.chunk.css.map": "/static/css/main.81cfc970.chunk.css.map",
-    "static/js/2.e8b7c574.chunk.js.LICENSE.txt": "/static/js/2.e8b7c574.chunk.js.LICENSE.txt",
-    "static/media/2018-11-10 surf-up.md": "/static/media/2018-11-10 surf-up.8beb37e3.md",
-    "static/media/2020-01-05 discord-to-do.md": "/static/media/2020-01-05 discord-to-do.8f48a530.md",
+    "static/css/main.0c1fdca4.chunk.css.map": "/static/css/main.0c1fdca4.chunk.css.map",
+    "static/js/2.c9ed3a9d.chunk.js.LICENSE.txt": "/static/js/2.c9ed3a9d.chunk.js.LICENSE.txt",
+    "static/media/2018-11-10 surf-up.md": "/static/media/2018-11-10 surf-up.626c6e1a.md",
+    "static/media/2020-01-05 discord-to-do.md": "/static/media/2020-01-05 discord-to-do.da827b92.md",
     "static/media/2020-01-21 best-of-both-worlds.md": "/static/media/2020-01-21 best-of-both-worlds.afd48232.md",
     "static/media/2020-01-30 smart-questions.md": "/static/media/2020-01-30 smart-questions.ef668fee.md",
     "static/media/2020-02-13 coding-standards.md": "/static/media/2020-02-13 coding-standards.0236d39d.md",
@@ -23,7 +23,7 @@
     "static/media/2020-05-15 to-a-new-start.md": "/static/media/2020-05-15 to-a-new-start.427f1ae3.md",
     "static/media/2020-05-18 internbit-resources.md": "/static/media/2020-05-18 internbit-resources.54893a6f.md",
     "static/media/2020-05-22 radgrad.md": "/static/media/2020-05-22 radgrad.a26253bf.md",
-    "static/media/2020-06-04 x-ray evaluation.md": "/static/media/2020-06-04 x-ray evaluation.0f5b7017.md",
+    "static/media/2020-06-04 x-ray-evaluation.md": "/static/media/2020-06-04 x-ray-evaluation.0f5b7017.md",
     "static/media/2020-06-05 pair-programming.md": "/static/media/2020-06-05 pair-programming.0df0cd4f.md",
     "static/media/2020-07-28 internbit.md": "/static/media/2020-07-28 internbit.f750c9e0.md",
     "static/media/App.css": "/static/media/BG_IMG.983387b6.jpg",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.cc36b19e.js",
     "static/css/2.5f1adba5.chunk.css",
-    "static/js/2.e8b7c574.chunk.js",
-    "static/css/main.81cfc970.chunk.css",
-    "static/js/main.f833b3e9.chunk.js"
+    "static/js/2.c9ed3a9d.chunk.js",
+    "static/css/main.0c1fdca4.chunk.css",
+    "static/js/main.6aa59bf1.chunk.js"
   ]
 }
