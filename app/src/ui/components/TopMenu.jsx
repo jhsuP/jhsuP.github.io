@@ -4,7 +4,12 @@ import { Menu } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 
 class TopMenu extends React.Component {
-  state = { activeItem: localStorage.getItem('tab') };
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeItem: localStorage.getItem('tab'),
+    }
+  }
 
   handleItemClick = (e, { name }) => {
     this.setState({ activeItem: name });
@@ -23,7 +28,7 @@ class TopMenu extends React.Component {
     const { activeItem } = this.state;
 
     return (
-        <Menu inverted stackable pointing secondary fixed={'top'}
+        <Menu inverted stackable pointing secondary fixed={'top'} className={'navBar'}
               style={{
                 backgroundColor: 'black',
                 padding: '0.5rem 0.5rem',
