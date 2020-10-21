@@ -10,8 +10,7 @@ class Resume extends React.Component {
     return (
         <div align={'center'}>
           <Container style={{  margin: '0rem 2rem', paddingTop: '8rem', color: 'white' }}>
-            <embed src="./Resume.pdf" width="800px" height="2100px"/>
-
+            <embed src="./Resume.pdf" width="800px" height="1100px"/>
           </Container>
         </div>
 
