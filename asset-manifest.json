@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.0c1fdca4.chunk.css",
-    "main.js": "/static/js/main.0de1a83c.chunk.js",
-    "main.js.map": "/static/js/main.0de1a83c.chunk.js.map",
+    "main.js": "/static/js/main.7989e6e1.chunk.js",
+    "main.js.map": "/static/js/main.7989e6e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc36b19e.js",
     "runtime-main.js.map": "/static/js/runtime-main.cc36b19e.js.map",
     "static/css/2.5f1adba5.chunk.css": "/static/css/2.5f1adba5.chunk.css",
-    "static/js/2.43bda564.chunk.js": "/static/js/2.43bda564.chunk.js",
-    "static/js/2.43bda564.chunk.js.map": "/static/js/2.43bda564.chunk.js.map",
+    "static/js/2.f8c6f1e6.chunk.js": "/static/js/2.f8c6f1e6.chunk.js",
+    "static/js/2.f8c6f1e6.chunk.js.map": "/static/js/2.f8c6f1e6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.161517b718924f7aea854e5878fd8f19.js": "/precache-manifest.161517b718924f7aea854e5878fd8f19.js",
+    "precache-manifest.329acef7c4d0871f2ce256fe855b0864.js": "/precache-manifest.329acef7c4d0871f2ce256fe855b0864.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5f1adba5.chunk.css.map": "/static/css/2.5f1adba5.chunk.css.map",
     "static/css/main.0c1fdca4.chunk.css.map": "/static/css/main.0c1fdca4.chunk.css.map",
-    "static/js/2.43bda564.chunk.js.LICENSE.txt": "/static/js/2.43bda564.chunk.js.LICENSE.txt",
+    "static/js/2.f8c6f1e6.chunk.js.LICENSE.txt": "/static/js/2.f8c6f1e6.chunk.js.LICENSE.txt",
     "static/media/2018-11-10 surf-up.md": "/static/media/2018-11-10 surf-up.626c6e1a.md",
     "static/media/2020-01-05 discord-to-do.md": "/static/media/2020-01-05 discord-to-do.da827b92.md",
     "static/media/2020-01-21 best-of-both-worlds.md": "/static/media/2020-01-21 best-of-both-worlds.afd48232.md",
@@ -26,8 +26,9 @@
     "static/media/2020-06-04 x-ray-evaluation.md": "/static/media/2020-06-04 x-ray-evaluation.0f5b7017.md",
     "static/media/2020-06-05 pair-programming.md": "/static/media/2020-06-05 pair-programming.0df0cd4f.md",
     "static/media/2020-07-28 internbit.md": "/static/media/2020-07-28 internbit.f750c9e0.md",
-    "static/media/2020-10-24 hacc-hui.md": "/static/media/2020-10-24 hacc-hui.414c2103.md",
+    "static/media/2020-10-24 hacc-hui.md": "/static/media/2020-10-24 hacc-hui.7c962657.md",
     "static/media/2020-10-24 recommendation-systems.md": "/static/media/2020-10-24 recommendation-systems.13624a1d.md",
+    "static/media/2020-12-07 project-clio.md": "/static/media/2020-12-07 project-clio.a9d41731.md",
     "static/media/App.css": "/static/media/BG_IMG.983387b6.jpg",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
     "static/media/github.jpg": "/static/media/github.0d7a432a.jpg"
@@ -35,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.cc36b19e.js",
     "static/css/2.5f1adba5.chunk.css",
-    "static/js/2.43bda564.chunk.js",
+    "static/js/2.f8c6f1e6.chunk.js",
     "static/css/main.0c1fdca4.chunk.css",
-    "static/js/main.0de1a83c.chunk.js"
+    "static/js/main.7989e6e1.chunk.js"
   ]
 }
