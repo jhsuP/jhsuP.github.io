@@ -48,7 +48,6 @@ class App extends React.Component {
     );
 
     const isDesktop = this.state.isDesktop;
-    console.log(isDesktop);
 
     return (
         <Router>

@@ -16,10 +16,31 @@ class TopMenu extends React.Component {
     localStorage.setItem('tab', name);
   };
 
+  // removeNavHistory = ()  => {
+  //   const tab = window.location.pathname;
+  //   if (tab.split('/')[1].length !== 0) {
+  //     localStorage.setItem('tab', tab);
+  //   } else {
+  //     localStorage.setItem('tab', 'home');
+  //   }
+  // }
+  //
+  // componentWillUnmount() {
+  //   window.addEventListener('beforeunload', this.removeNavHistory);
+  // }
+
   componentDidMount(){
-    let defaultTab = localStorage.getItem('tab');
+    const tab = window.location.pathname;
+    let defaultTab = tab;
+    if (tab.split('/')[1].length !== 0) {
+      localStorage.setItem('tab', tab.split('/')[1]);
+      defaultTab = tab.split('/')[1];
+    } else {
+      defaultTab = 'home';
+      localStorage.setItem('tab', 'home');
+    }
     this.setState(()=>({
-          defaultTab: defaultTab
+          activeItem: defaultTab
         })
     );
   }
@@ -33,13 +54,14 @@ class TopMenu extends React.Component {
                 backgroundColor: 'black',
                 padding: '0.5rem 0.5rem',
                 borderColor: 'transparent',
+                fontVariantCaps: 'all-small-caps'
               }}>
           <Menu.Item
-              style={{ marginLeft: 'calc(34%)' }}
+              // style={{ marginLeft: 'calc(34%)' }}
               name='home'
               active={activeItem === 'home'}
               onClick={this.handleItemClick}
-              icon={"user"}
+              icon={"home"}
               as={ Link }
               to='/'
           />
@@ -76,7 +98,6 @@ class TopMenu extends React.Component {
               to='/resume'
           />
         </Menu>
-
     )
   }
 }

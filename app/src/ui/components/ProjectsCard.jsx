@@ -48,7 +48,7 @@ class ProjectsCard extends React.Component {
 
     const renderLabels = (tool) => {
       return (
-          <Label style={{ backgroundColor: '#00000059', color: 'white' }}>
+          <Label key={tool} style={{ backgroundColor: '#00000059', color: 'white' }}>
             {tool}
           </Label>
       )
@@ -77,7 +77,7 @@ class ProjectsCard extends React.Component {
                 description: this.state.description,
                 title: this.state.title,
               }}>
-                <Item.Header as='a'>{this.state.title}</Item.Header>
+                <Item.Header>{this.state.title}</Item.Header>
               </Link>
               <Item.Meta>
                     <span style={{ color: 'white' }}>

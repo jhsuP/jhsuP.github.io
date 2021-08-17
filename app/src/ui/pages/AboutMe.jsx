@@ -8,7 +8,7 @@ class AboutMe extends React.Component {
 
     const skills = [
       'React', 'React Native', 'Node.js', 'Javascript', 'HTML', 'CSS', 'SemanticUI', 'MongoDB',
-      'Git', 'Python'
+      'Git', 'Python', 'Vue', 'Java'
     ];
 
     const interests = [
@@ -16,14 +16,14 @@ class AboutMe extends React.Component {
       'Psychology', 'Cognitive Science', 'Front-End Development', 'Mobile Development'
     ];
 
-    const renderLabels = (skill, index) => {
+    const renderLabels = (skill) => {
       return (
           <Label size={'large'}
                  style={{
                    backgroundColor: '#00000059',
                    color: 'white', margin: '0.4rem'
                  }}
-          key={index}>
+          key={skill}>
             {skill}
           </Label>
       )
@@ -38,17 +38,16 @@ class AboutMe extends React.Component {
               </Header>
 
               <p>
-                I am a student studying Computer Science & Social Work at the University of Hawaii
-                at Manoa. I was always interested in CS and after taking courses in Social Work, I
-                realized how much difference a good and user-friendly software can be when it comes
-                to case management and working with marginalized populations. It was then I decided
-                that I should tie in both of my passions -- CS and helping others. I am currently
-                looking for internships and/or full time positions upon graduation.
+                I graduated on May 2021 from University of Hawaii at Manoa and got my Bachelors in Computer &
+                Information Science and Social Work. I was always interested in CS and after taking
+                courses in Social Work, I realized how much difference a good and user-friendly software
+                can be when it comes to working with marginalized populations. It was then I decided that
+                I should tie in both of my passions -- CS, healthcare, and helping others.
               </p>
               <p>
                 I use this site as both a professional portfolio, as well as a place to document my
-                journey as a CS student. I hope you enjoy your visit here and if you ever want to
-                reach out, feel free to contact me at my <a
+                journey as a Junior Software Developer. I hope you enjoy your visit here and if you
+                ever want to reach out, feel free to contact me at my <a
                   href={'mailto: jhsu2@hawaii.edu'}>email</a> or <a
                   href={'https://www.linkedin.com/in/jennifer-hsu-6788b9153/'}>LinkedIn</a>.
               </p>

@@ -23,7 +23,7 @@ class Projects extends React.Component {
                         }}
                         >
 
-              {_.map(markdownFiles, (project, index) => <ProjectsCard
+              {_.map(markdownFiles, (project) => <ProjectsCard
                   project={project} key={project}/>)}
             </Item.Group>
           </Container>

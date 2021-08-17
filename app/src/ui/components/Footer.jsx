@@ -6,6 +6,8 @@ class Footer extends React.Component {
 
   render() {
 
+    const currentDate = new Date();
+
     return (
         <div style={{
           marginTop: '4rem',
@@ -16,7 +18,7 @@ class Footer extends React.Component {
           bottom: 0,
         }}>
           <Grid container centered>
-            © Jennifer Hsu 2020
+            © Jennifer Hsu {currentDate.getFullYear()}
           </Grid>
         </div>
 
