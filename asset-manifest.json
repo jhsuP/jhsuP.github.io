@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff30b31b.chunk.css",
-    "main.js": "/static/js/main.fb57116d.chunk.js",
-    "main.js.map": "/static/js/main.fb57116d.chunk.js.map",
+    "main.css": "/static/css/main.eb2cbcc6.chunk.css",
+    "main.js": "/static/js/main.581e74b3.chunk.js",
+    "main.js.map": "/static/js/main.581e74b3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc36b19e.js",
     "runtime-main.js.map": "/static/js/runtime-main.cc36b19e.js.map",
-    "static/css/2.5f1adba5.chunk.css": "/static/css/2.5f1adba5.chunk.css",
-    "static/js/2.f8c6f1e6.chunk.js": "/static/js/2.f8c6f1e6.chunk.js",
-    "static/js/2.f8c6f1e6.chunk.js.map": "/static/js/2.f8c6f1e6.chunk.js.map",
+    "static/css/2.a6bc3989.chunk.css": "/static/css/2.a6bc3989.chunk.css",
+    "static/js/2.affe9d40.chunk.js": "/static/js/2.affe9d40.chunk.js",
+    "static/js/2.affe9d40.chunk.js.map": "/static/js/2.affe9d40.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.85e3dc3a8be7d5d6bfc921186f7a070b.js": "/precache-manifest.85e3dc3a8be7d5d6bfc921186f7a070b.js",
+    "precache-manifest.faafb3743babbe2628521c00ad77adc4.js": "/precache-manifest.faafb3743babbe2628521c00ad77adc4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.5f1adba5.chunk.css.map": "/static/css/2.5f1adba5.chunk.css.map",
-    "static/css/main.ff30b31b.chunk.css.map": "/static/css/main.ff30b31b.chunk.css.map",
-    "static/js/2.f8c6f1e6.chunk.js.LICENSE.txt": "/static/js/2.f8c6f1e6.chunk.js.LICENSE.txt",
+    "static/css/2.a6bc3989.chunk.css.map": "/static/css/2.a6bc3989.chunk.css.map",
+    "static/css/main.eb2cbcc6.chunk.css.map": "/static/css/main.eb2cbcc6.chunk.css.map",
+    "static/js/2.affe9d40.chunk.js.LICENSE.txt": "/static/js/2.affe9d40.chunk.js.LICENSE.txt",
     "static/media/2018-11-10 surf-up.md": "/static/media/2018-11-10 surf-up.35d42f29.md",
     "static/media/2020-01-05 discord-to-do.md": "/static/media/2020-01-05 discord-to-do.e3c598f1.md",
     "static/media/2020-01-21 best-of-both-worlds.md": "/static/media/2020-01-21 best-of-both-worlds.f0b86212.md",
@@ -35,9 +35,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cc36b19e.js",
-    "static/css/2.5f1adba5.chunk.css",
-    "static/js/2.f8c6f1e6.chunk.js",
-    "static/css/main.ff30b31b.chunk.css",
-    "static/js/main.fb57116d.chunk.js"
+    "static/css/2.a6bc3989.chunk.css",
+    "static/js/2.affe9d40.chunk.js",
+    "static/css/main.eb2cbcc6.chunk.css",
+    "static/js/main.581e74b3.chunk.js"
   ]
 }
