@@ -9,7 +9,6 @@ markdownFiles = markdownFiles.reverse();
 
 class Blogs extends React.Component {
 
-
   render() {
 
     return (

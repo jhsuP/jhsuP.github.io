@@ -42,7 +42,7 @@ class BlogCard extends React.Component {
               this.setState({ description: split[2] });
               this.setState({ loading: false });
             })
-    );
+      );
   }
 
 

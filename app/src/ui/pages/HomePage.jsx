@@ -1,6 +1,5 @@
 import React from 'react';
-import Middle from '../components/Middle';
-import { Container, Header, Icon, Image } from 'semantic-ui-react';
+import { Container, Icon, Image } from 'semantic-ui-react';
 import profileImg from '../../images/github.jpg';
 
 class HomePage extends React.Component {
@@ -30,7 +29,7 @@ class HomePage extends React.Component {
                     <Icon style={space} name={"github"} size='big'/>
                   </a>
                 </div>
-                <p style={pPad}>CS Student. Video Editor. Cat Enthusiast.</p>
+                <p style={pPad}>Associate Software Engineer. Video Editor. Cat Enthusiast.</p>
               </div>
             </Container>
           </div>

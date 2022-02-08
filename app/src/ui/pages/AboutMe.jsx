@@ -42,11 +42,11 @@ class AboutMe extends React.Component {
                 Information Science and Social Work. I was always interested in CS and after taking
                 courses in Social Work, I realized how much difference a good and user-friendly software
                 can be when it comes to working with marginalized populations. It was then I decided that
-                I should tie in both of my passions -- CS, healthcare, and helping others.
+                I should tie in my passions -- CS, healthcare, and helping others.
               </p>
               <p>
                 I use this site as both a professional portfolio, as well as a place to document my
-                journey as a Junior Software Developer. I hope you enjoy your visit here and if you
+                journey as an Associate Software Engineer. I hope you enjoy your visit here and if you
                 ever want to reach out, feel free to contact me at my <a
                   href={'mailto: jhsu2@hawaii.edu'}>email</a> or <a
                   href={'https://www.linkedin.com/in/jennifer-hsu-6788b9153/'}>LinkedIn</a>.
